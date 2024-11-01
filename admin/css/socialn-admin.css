@@ -1,0 +1,72 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#adminmenu #toplevel_page_socialn .wp-menu-image img {
+    padding: 6px 0 0;
+}
+
+#socialn-settings-page {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+#socialn-settings-page .description {
+    margin-top: 15px;
+}
+
+#socialn-settings-page .logo {
+    height: 40px;
+}
+
+.settings-col {
+    width: 75%;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 50px;
+}
+
+.sidebar-col {
+    padding: 20px 40px;
+    background: #fff;
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+.sidebar-col h2 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar-col .success-button {
+    background-color: rgb(10, 209, 136);
+    border: 1px solid rgb(10, 209, 136);
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 29px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    padding-bottom: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sidebar-col .success-button:hover {
+    background: rgb(10, 175, 114);
+}
+.CodeMirror-placeholder {
+    color: brown !important;
+}
